@@ -6,16 +6,16 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Market {
-    String IDs = "src\\files\\ids.txt";
-    String KEY = "src\\files\\key.txt";
-    String MARKET_NAME = "src\\files\\market_name.txt";
-    String NAMEs = "src\\files\\names.txt";
-    String PRICEs = "src\\files\\prices.txt";
-    String QTDs = "src\\files\\qtds.txt";
-    String SELLs = "src\\files\\sells.txt";
-    String MONEY_TRANSATIONS = "src\\files\\money_transations.txt";
-    String CURRENT_MONEY = "src\\files\\current_money.txt";
-    private String MONEY_TRANSATIONS_NUMS = "src\\files\\money_trans_nums.txt";
+    String IDs = "src/files/ids.txt";
+    String KEY = "src/files/key.txt";
+    String MARKET_NAME = "src/files/market_name.txt";
+    String NAMEs = "src/files/names.txt";
+    String PRICEs = "src/files/prices.txt";
+    String QTDs = "src/files/qtds.txt";
+    String SELLs = "src/files/sells.txt";
+    String MONEY_TRANSATIONS = "src/files/money_transations.txt";
+    String CURRENT_MONEY = "src/files/current_money.txt";
+    private String MONEY_TRANSATIONS_NUMS = "src/files/money_trans_nums.txt";
 
     ArrayList<Integer> Product_ids_array = new ArrayList<>();
     ArrayList<String> Product_names_array = new ArrayList<>();
@@ -60,7 +60,7 @@ public class Market {
         String key, answer;
         System.out.println("Type a key for market acess :");
         key = SC.nextLine();
-        System.out.println("Sure " + "*".repeat(key.length()) + " ?");
+        System.out.println("Sure " + ******* + " ?");
         System.out.println("1 - OK :");
         System.out.println("Else - Cancel :");
         answer = SC.nextLine();
